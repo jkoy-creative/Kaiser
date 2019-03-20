@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel=stylesheet />
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            a:link {color:#FFFFFF;
+            text-decoration: none;
+            }
+            /* unvisited link*/
+            a:visited {color:#FFFFFF;
+            text-decoration: none;
+			}
+            /* visited link */
+            a:hover {color:#c7d51f;
+            text-decoration: none;
+            }   
+            /* hover*/
+            a:active {color:#FFFFFF;
+            text-decoration: none;
+            }  
+            /* selected link when loading*/
+        </style>
+    </head>
+    <body>
+        <div id="HeaderMenu" class="homePage">
+            <nav class="mobileNav" onclick="$('.mobileNav span').toggle(); $('.mobileNavIcon').toggle();">
+                    <span class="mobileNavIcon" onclick="getElementById('HeaderMenu') .set "> &#x2630;</span>
+                    <span><a href="index.html">Home</a></span>
+				    <span><a href="products.html">Products</a></span>
+				    <span class="logoSpace"></span>
+				    <span><a href="services.html">Services</a></span>
+                    <span><a href="contact.html">Contact</a></span>
+            </nav>
+            <div class="logo">
+                <img src="images/Logo-2.png" class="bigLogo"/>
+            </div>
+        </div>
+        <h1>TALK TO US</h1>
+        <form class="distributor" action="formresponse.php" method="post">              
+            <input type="text" value="jk804614@ohio.edu" name="toEmail" hidden>
+            <span class="companyname">
+                Company or Name<br><input type="text" name="company">
+            </span>
+            <span class="personofcontact">
+                Person of Contact (Distributors Only)<br><input type="text" name="contact">
+            </span>
+            <span class="phone">
+                Phone Number <br><input type="tel" name="phone">
+            </span>
+            <span class="email">
+                Email <br><input type="text" name="email">
+            </span>
+            <br>
+            <span class="kindofservice">Kind of Service<br>
+                <input type="radio" name="kind">  Products <br>
+                <input type="radio" name="kind">  Transportation <br>
+                <input type="radio" name="kind">  Employment <br>
+                <input type="radio" name="kind">  Customer Service <br>
+            </span>
+            <span class="feedback">
+                <textarea name="feedback">
+                    
+                </textarea>
+            </span>
+            <input type="submit" name="submit" value="Click to Submit">
+        </form>
+        
+    
+        <footer>
+            Copyright 2017 Kaiser Pickles, LLC.
+            <br> 
+            500 York St. Cincinnati, Ohio 45214
+            <br>
+            513.621.2053
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel=stylesheet />
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            a:link {color:#FFFFFF;
+            text-decoration: none;
+            }
+            /* unvisited link*/
+            a:visited {color:#FFFFFF;
+            text-decoration: none;
+			}
+            /* visited link */
+            a:hover {color:#c7d51f;
+            text-decoration: none;
+            }   
+            /* hover*/
+            a:active {color:#FFFFFF;
+            text-decoration: none;
+            }  
+            /* selected link when loading*/
+        </style>
+    </head>
+    <body>
+        <div id="HeaderMenu" class="homePage">
+            <nav class="mobileNav" onclick="$('.mobileNav span').toggle(); $('.mobileNavIcon').toggle();">
+                    <span class="mobileNavIcon" onclick="getElementById('HeaderMenu') .set "> &#x2630;</span>
+                    <span><a href="index.html">Home</a></span>
+				    <span><a href="products.html">Products</a></span>
+				    <span class="logoSpace"></span>
+				    <span><a href="services.html">Services</a></span>
+                    <span><a href="contact.html">Contact</a></span>
+            </nav>
+            <div class="logo">
+                <img src="images/Logo-2.png" class="bigLogo"/>
+            </div>
+        </div>
+        <h1>OUR PRODUCTS</h1>
+        <p class="productInfo">Kaiser Pickles sources over 95% of our pickles and peppers from local farms in the Ohio, Indiana, and Michigan area. These raw materials are distributed between our three manufacturing facilities (two locations in Cincinnati, OH and one location in Aurora, IN), these facilities are all SQF Level 3 certified. Our long list of quality assurance programs, ensure we consistently produce the safest and highest quality products that our customers have come to expect and love. Check out our full list of dill-licious products below... </p>
+            <div class="productContainer">
+                
+                <span class="product">
+                    <img src="images/ShelfStableProducts.jpg" alt="Shelf Stable Products" class="productPhoto" a href="PDFLinks/01-ShelfStable.pdf" download>
+                    <h6>Shelf Stable Products</h6>
+                </span>
+                
+                <span class="product">
+                    <img src="images/RetailPouch.jpg" alt="Retail Pouch" class="productPhoto" a href="PDFLinks/01-Pouches.pdf" download>
+                    <h6>Retail Pouch</h6>
+                </span>
+                
+                <span class="product">
+                    <img src="images/RefrigeratedDeliProducts.jpg" alt="Refridgerated Deli Products" class="productPhoto" a href="PDFLinks/01-DeliNEW.pdf" download>
+                    <h6>Refridgerated Deli <br> Products</h6>
+                </span>
+                
+                 <span class="product">
+                    <img src="images/PepperProducts.png" alt="Pepper Products" class="productPhoto" a href="PDFLinks/01-Peppers.pdf" download>
+                    <h6>Pepper Products</h6>
+                </span>
+                
+                <span class="product">
+                    <img src="images/LargePouch.png" alt="Large Pouch" class="productPhoto" a href="PDFLinks/01-LargePouches.pdf" download>
+                    <h6>Large Pouches</h6>
+                </span>
+            </div>
+        <footer>
+        Copyright 2017 Kaiser Pickles, LLC.
+        <br> 
+        500 York St. Cincinnati, Ohio 45214
+        <br>
+        513.621.2053
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel=stylesheet />
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            a:link {color:#FFFFFF;
+            text-decoration: none;
+            }
+            /* unvisited link*/
+            a:visited {color:#FFFFFF;
+            text-decoration: none;
+			}
+            /* visited link */
+            a:hover {color:#c7d51f;
+            text-decoration: none;
+            }   
+            /* hover*/
+            a:active {color:#FFFFFF;
+            text-decoration: none;
+            }  
+            /* selected link when loading*/
+        </style>
+    </head>
+    
+    <body>
+        <div id="HeaderMenu" class="homePage">
+            <nav class="mobileNav" onclick="$('.mobileNav span').toggle(); $('.mobileNavIcon').toggle();">
+                    <span class="mobileNavIcon" onclick="getElementById('HeaderMenu') .set "> &#x2630;</span>
+                    <span><a href="index.html">Home</a></span>
+				    <span><a href="products.html">Products</a></span>
+				    <span class="logoSpace"></span>
+				    <span><a href="services.html">Services</a></span>
+                    <span><a href="contact.html">Contact</a></span>
+            </nav>
+            <div class="logo">
+                <img src="images/Logo-2.png" class="bigLogo"/>
+            </div>
+        </div>
+        <div class="aboutText">
+            <h1>OUR HISTORY</h1>
+            <p>
+                Kaiser Pickles is part of the family owned Kaiser Foods group of companies. Kaiser Pickles was started in 1920 in Cincinnati Ohio by Harry T. Kaiser Sr. It started out as a food stand operating at various city markets. In 1930, Harry changed the company to a food distributor servicing the Greater Cincinnati area. The product line consisted of pickles, kraut and relishes.
+            <br>
+            <br>
+                Upon completing his time in the Army, Harry T. Kaiser Jr. joined his father in 1955 and eventually took over the business in 1967. Harry Jr. (Ted) added various other product lines and took the distribution from two to five weekly routes. In 1986 his son David came on board and the two of them started transforming the company into what it is today.
+            <br>
+            <br>
+                In 1990 they opened their first pickle processing facility producing approximately 18,000 bushels of pickles. The company secured the majority of its cucumbers from local farms in the state of Michigan. In 1998 Harry Jr. retired and turned the business over to David, his siblings and extended family members. The company with the purchase of the Matthews Pickle Company in 2010 became a fully integrated pickle company. The company added the production of peppers in 2012.
+            <br>
+            <br>
+                With new technology, the third generation geared its main focus towards food safety. Supplying customers with a safe, competitively priced, and consistently pleasing product is our mission. With the development of risk based preventative food safety and quality plans, including well defined prerequisite programs, we have continued to achieve the SQF Level 3000 Certificate (the highest level achievable by a food manufacture). The company produces a full line of pickles, peppers and relishes. Currently the company produces over 50 million pounds of pickles and peppers each year and has approximately 150 employees. The company's main markets are the Food Service and Industrial sectors. The company ships its products throughout the United States and International markets. As we move towards our fourth generation, we strive for continued growth and expansion by staying true to our roots and supplying customers with the safest, freshest, high quality products.
+            <br>
+            <br>
+                Here at Kaiser Pickles, we are involved with honorable work, providing the world with great tasting, high quality, and competitively priced pickle and pepper products. Our longstanding reputation for quality, integrity, service, value, trust and dedication is the cornerstone of our business. We relish the opportunity to educate and inform our customers about both our products and our competitors' products. Through our knowledge, experience, and dedication to our customers, we hope to have the pleasure of working with you now and long into the future.
+            </p>
+        </div>
+        <div id="quoteContainer">
+            <p class="pullQuote">
+                "Here at Kaiser Pickles, we are involved with honorable work, providing the world with great tasting, high quality, and competitively priced pickle and pepper products."
+            </p>
+            <p class="credit">
+                -Nick, CEO at Kaiser Pickles
+            </p>
+        </div>
+        <footer>
+            Copyright 2017 Kaiser Pickles, LLC.
+            <br> 
+            500 York St. Cincinnati, Ohio 45214
+            <br>
+            513.621.2053
+            <br>
+        </footer>
+    </body>
+
+</html>
